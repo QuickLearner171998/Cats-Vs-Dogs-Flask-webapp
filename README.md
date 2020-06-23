@@ -20,7 +20,7 @@ It serves as a very basic introduction for deploying TF models using TensorFlow 
 
     ```sudo docker run -p 8502:8501 --name=pets -v "/home/example/pets/:/models/pets/1" -e MODEL_NAME=pets tensorflow/serving```
 
-    Please note if you use any other port, you will have to change the MODEL_URI in the app.py file accordingly
+    Please note if you use any other port, you will have to change the MODEL_URL in the app.py file accordingly
 
 
 
